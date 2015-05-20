@@ -4,4 +4,7 @@ def dodawanie():
     print('Podaj drugą liczbę:')
     b=int(input())
     print(a+b)
+def get_info():
+    print("To jest prosty programik kalkulator")
+get_info()
 dodawanie()
